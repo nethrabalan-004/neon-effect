@@ -1,0 +1,172 @@
+
+.neon
+{
+
+    border-color: aqua;
+    border: 2px solid rgb(255, 255, 255);
+    
+}
+.neon_aqua
+{
+    border-color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 1px 1px 30px  4px aqua;
+
+}
+
+.neon_red
+{
+    border-color: red;
+    border: 2px solid red;
+    box-shadow: 1px 1px 30px  4px red;
+
+}
+
+.neon_green
+{
+    border-color: rgb(41, 236, 41);
+    border: 2px solid rgb(41, 236, 41);;
+    box-shadow: 1px 1px 30px  4px rgb(41, 236, 41);;
+
+}
+
+.neon_pink
+{
+    border-color: rgb(244, 61, 91);
+    border: 2px solid rgb(244, 61, 91);
+    box-shadow: 1px 1px 30px  4px rgb(244, 61, 91);
+}
+
+.neon_effect1
+{
+    animation: 4s ani1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani1{
+    0%{
+    border-color: aqua;
+    border: 2px solid aqua;
+    box-shadow: 1px 1px 30px  4px aqua;
+    }
+    25%{
+        border-color: red;
+        border: 2px solid red;
+        box-shadow: 1px 1px 30px  4px red;
+    }
+    50%{
+        border-color: rgb(41, 236, 41);
+        border: 2px solid rgb(41, 236, 41);
+        box-shadow: 1px 1px 30px  4px rgb(41, 236, 41);
+    }
+    100%
+    {
+        border-color: rgb(244, 61, 91);
+        border: 2px solid rgb(244, 61, 91);
+        box-shadow: 1px 1px 30px  4px rgb(244, 61, 91);
+    }
+}
+.neon_effect2{
+    animation: 4s ani2;
+    animation-iteration-count: infinite;
+}
+@keyframes ani2{
+    0%{
+        border-color: red;
+        border: 2px solid red;
+        box-shadow: 1px 1px 30px  4px red;
+    }
+    25%{
+        border-color: rgb(244, 61, 91);
+        border: 2px solid rgb(244, 61, 91);
+        box-shadow: 1px 1px 30px  4px rgb(244, 61, 91);
+        
+    }
+    50%{
+        border-color: rgb(41, 236, 41);
+        border: 2px solid rgb(41, 236, 41);
+        box-shadow: 1px 1px 30px  4px rgb(41, 236, 41);
+    }
+    100%
+    {
+        border-color: aqua;
+        border: 2px solid aqua;
+        box-shadow: 1px 1px 30px  4px aqua;
+       
+    }
+}
+
+.neon_effect3{
+    animation: 4s ani3;
+    animation-iteration-count: infinite;
+}
+@keyframes ani3{
+    0%{
+        border-color: rgb(41, 236, 41);
+        border: 2px solid rgb(41, 236, 41);
+        box-shadow: 1px 1px 30px  4px rgb(41, 236, 41);
+       
+    }
+    25%{
+        border-color: aqua;
+        border: 2px solid aqua;
+        box-shadow: 1px 1px 30px  4px aqua;
+       
+        
+        
+    }
+    50%{
+        border-color: rgb(244, 61, 91);
+        border: 2px solid rgb(244, 61, 91);
+        box-shadow: 1px 1px 30px  4px rgb(244, 61, 91);
+       
+    }
+    100%
+    {
+        border-color: red;
+        border: 2px solid red;
+        box-shadow: 1px 1px 30px  4px red;
+    }
+}
+
+.neon_effect4{
+    animation: 4s ani4;
+    animation-iteration-count: infinite;
+}
+
+.neon_effect3{
+    animation: 4s ani3;
+    animation-iteration-count: infinite;
+}
+@keyframes ani4{
+    0%{
+        border-color: rgb(244, 61, 91);
+        border: 2px solid rgb(244, 61, 91);
+        box-shadow: 1px 1px 30px  4px rgb(244, 61, 91);
+        
+       
+    }
+    25%{
+        border-color: red;
+        border: 2px solid red;
+        box-shadow: 1px 1px 30px  4px red;
+        
+       
+        
+        
+    }
+    50%{
+        
+        border-color: rgb(41, 236, 41);
+        border: 2px solid rgb(41, 236, 41);
+        box-shadow: 1px 1px 30px  4px rgb(41, 236, 41);
+    }
+    100%
+    {
+        border-color: aqua;
+        border: 2px solid aqua;
+        box-shadow: 1px 1px 30px  4px aqua;
+    }
+}
+
+
